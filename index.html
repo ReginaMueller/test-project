@@ -4,68 +4,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="my first website in coding bootcamp">
-    <meta name="author" content="Regina Mueller">
-    <title>website of Regina Mueller</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="aclonica-v22-latin-regular.woff2">
 </head>
+
 
 <body>
     <header>
-        <h1>Regina Müller</h1>
-        Welcome! <br>
-        Here is some information about me. <br>
-        This CV is still a work in progress and will look much prettier soon.
+        <h1>My Website</h1>
+        <nav>
+            <ul>
+                <li> <a href="#about">About</a></li>
+                <li><a href="#pictures">Pictures</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
     </header>
+
     <main>
         <article>
-            <h2>Profile</h2>
-            <section>
-                I am currently taking part in the coding bootcamp.
-                My goal is to get back into the developer industry.
-            </section>
+            <h2 id="about">About</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim quisquam voluptatibus, accusamus
+                dignissimos quaerat optio dolor saepe? Nostrum ipsam pariatur repellat, laudantium sit consectetur
+                quidem non aliquam ab aut vero!</p>
         </article>
-        <article>
-            <h2>Experience</h2>
-            <section>
-                <h3>freelancer in project DeckCadet</h3>
-                I'm working on a project called DeckCadet.
-                It is intended to provide a maritime service
-                where sailors can report or find incidents
-                (e.g. oil spills on the water or floating objects).
-                The DeckCadet platform is primarily intended to protect
-                life and warn of dangers.
-            </section>
-            <section>
-                <h3>operator in the visa center</h3>
-                I worked with documents in a visa center for 6 years.
-            </section>
-        </article>
-        <article>
-            <h2>Skills</h2>
-            <section>
-                <h3>technical skills</h3>
-                <ul>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JS</li>
-                    <li>REACT</li>
-                </ul>
-            </section>
-            <section>
-                <h3>soft skills</h3>
-                <ul>
-                    <li>Problem solving</li>
-                    <li>Independent thinking</li>
-                    <li>Adaptability</li>
-                    <li>Teamwork</li>
-                    <li>Communication</li>
-                </ul>
-            </section>
-        </article>
+
+        <section>
+            <h2 id="pictures">Pictures</h2>
+            <p>Here are thre <i>ordered</i> landscape images from <a href="#Pictures"> unsplash:</a> </p>
+            <ol>
+                <li>
+                    <img src="bild1.jpeg" alt="das ist ein Bild">
+                </li>
+                <li><img src="bild2.jpeg" alt="das ist ein Bild"> </li>
+                <li><img src="bild3.jpeg" alt="das ist ein Bild"> </li>
+            </ol>
+        </section>
+
     </main>
+
     <footer>
-        <h2>Contact</h2>
+        <h2 id="contact">Contact</h2>
+        <p>Feel free to write me an <a href="mailto:lampe@gmail.com">email</a></p>
+
     </footer>
+
 </body>
+
+
+
 
 </html>
